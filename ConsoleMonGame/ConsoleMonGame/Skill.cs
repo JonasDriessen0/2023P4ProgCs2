@@ -6,10 +6,10 @@ using System.Threading.Tasks;
 
 namespace ConsoleMonGame
 {
-    internal class ConsoleMon
+    internal class Skill
     {
-        internal int health;
-        internal int energy;
+        internal int damage;
+        internal int energyCost;
         internal string name;
     }
 }
