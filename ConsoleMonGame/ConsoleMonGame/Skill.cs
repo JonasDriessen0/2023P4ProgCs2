@@ -12,6 +12,8 @@ namespace ConsoleMonGame
         internal int energyCost;
         internal string name;
 
+        private List<Skill> skill;
+
         internal void UseOn(ConsoleMon target, ConsoleMon caster)
         {
             caster.DepleteEnergy(energyCost);
