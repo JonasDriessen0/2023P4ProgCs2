@@ -25,5 +25,18 @@ namespace ConsoleMonGame
         {
             this.energy -= energy;
         }
+
+        public ConsoleMon()
+        {
+
+        }
+
+        internal ConsoleMon(int health, int energy, string name, Element weakness)
+        {
+            this.health = health;
+            this.energy = energy;
+            this.name = name;
+            this.weakness = weakness;
+        }
     }
 }
