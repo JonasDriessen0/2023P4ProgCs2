@@ -14,8 +14,7 @@ namespace ConsoleMonGame
 
         public Element element { get; set; }
 
-        
-
+        public Skill skills { get; set; }
         internal void UseOn(ConsoleMon target, ConsoleMon caster)
         {
             caster.DepleteEnergy(energyCost);

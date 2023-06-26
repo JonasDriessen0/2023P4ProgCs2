@@ -14,7 +14,7 @@ namespace ConsoleMonGame
 
         public Element weakness { get; set; }
 
-        public List<Skill> skill { get; set; }
+        public List<Skill> skills { get; set; }
 
         internal void TakeDamage(int damage)
         {
